@@ -1,5 +1,6 @@
 .app-content-header-profile {
   margin-left: 1rem;
+  margin-right: 1rem;
   display: flex;
   justify-self: flex-start;
   align-items: center;
@@ -12,14 +13,59 @@
 }
 
 .app-content-header {
-  padding: 0.5rem;
+  padding: 0.7rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   height: auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   width: 100%;
 }
 
 .app-content-header-profile-text-viewing {
   opacity: 0.5;
   font-size: 0.8rem;
+}
+
+.app-content-header-arrow {
+  opacity: 0.5;
+  display: flex;
+  align-items: center;
+}
+
+.app-content-header-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 20%;
+}
+
+.app-content-header-links-dashboard {
+  margin-right: 1rem;
+  margin-left: 1rem;
+  color: #298bbe;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.app-content-header-timeline {
+  margin-right: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.app-content-header-links-timeline-text {
+  margin-left: 0.5rem;
+  font-weight: 500;
+}
+
+.app-content-header-links-dashboard-text {
+  margin-left: 0.5rem;
+  font-weight: 500;
+}
+
+.app-content-header-profile-text-username {
+  font-weight: 500;
 }
