@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import './Content.css';
 
 const Content = (props) => {
-  return <section className="app-content">Content</section>;
+  return <main className="app-content">Content</main>;
 };
 
 Content.propTypes = {};
