@@ -7,11 +7,13 @@ const SideBarList = () => {
   const characters = useContext(CharacterContext)[0];
 
   return (
-    <ul className="app-sidebar-list">
+    <div className="app-sidebar-list">
       {characters.characters.map((character) => (
-        <li key={character}>{character}</li>
+        <div key={character}>
+          <p>{character}</p>
+        </div>
       ))}
-    </ul>
+    </div>
   );
 };
 
