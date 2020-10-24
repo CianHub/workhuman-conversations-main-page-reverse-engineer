@@ -1,0 +1,25 @@
+.app-content-header-profile {
+  margin-left: 1rem;
+  display: flex;
+  justify-self: flex-start;
+  align-items: center;
+}
+
+.app-content-header-profile-text {
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-content-header {
+  padding: 0.5rem;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.app-content-header-profile-text-viewing {
+  opacity: 0.5;
+  font-size: 0.8rem;
+}
