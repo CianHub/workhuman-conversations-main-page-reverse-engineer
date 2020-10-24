@@ -4,8 +4,8 @@ export const initialState = { characters: [] };
 
 export const CharacterReducer = (state = initialState, action) => {
   switch (action.type) {
-    case actions.addCharacter:
-      return { ...state, characters: action.payload.characters };
+    case 'ADD_CHARACTER':
+      return { ...state, characters: action.payload };
     default:
       return state;
   }

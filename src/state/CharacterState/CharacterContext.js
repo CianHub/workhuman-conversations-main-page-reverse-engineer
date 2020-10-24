@@ -1,4 +1,4 @@
-import React, { useReducer, useState } from 'react';
+import React, { useReducer } from 'react';
 import { CharacterReducer, initialState } from './CharacterReducer';
 
 export const CharacterContext = React.createContext();
