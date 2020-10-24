@@ -4,6 +4,22 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: flex-start;
+}
+
+.app-sidebar-list-item {
+  color: white;
+  margin: 0;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: flex-start;
   align-items: center;
+}
+
+.app-sidebar-list-item-img {
+  margin-right: 0.5rem;
+}
+
+.app-sidebar-list-item-text {
+  margin-left: 0.5rem;
 }
