@@ -10,7 +10,6 @@ import { actions } from '../../../state/CharacterState/CharacterReducer';
 
 const AppContainer = (props) => {
   const [state, dispatch] = useContext(CharacterContext);
-  console.log(state);
 
   useEffect(() => {
     axios.get('https://swapi.dev/api/people').then((res) => {

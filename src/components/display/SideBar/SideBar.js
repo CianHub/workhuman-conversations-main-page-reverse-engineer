@@ -1,12 +1,14 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
 import './SideBar.css';
+import SideBarList from './SideBarList/SideBarList';
 
-const SideBar = (props) => {
-  return <div className="app-sidebar">Sidebar</div>;
+const SideBar = () => {
+  return (
+    <div className="app-sidebar">
+      <SideBarList />
+    </div>
+  );
 };
-
-SideBar.propTypes = {};
 
 export default SideBar;
