@@ -14,7 +14,7 @@ const Header = (props) => {
 
   return (
     <header className="app-content-header">
-      <Profile title={'Viewing:'} />
+      <Profile subtitle={'Viewing:'} />
       <div className="app-content-header-arrow">
         <ArrowForwardIosIcon />
       </div>

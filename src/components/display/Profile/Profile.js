@@ -3,14 +3,14 @@ import PropTypes from 'prop-types';
 import RoundedImage from '../RoundedImage/RoundedImage';
 import { CharacterContext } from '../../../state/CharacterState/CharacterContext';
 
-const Profile = ({ subtitle }) => {
+const Profile = ({ subtitle, character }) => {
   const [{ currentCharacter }] = useContext(CharacterContext);
 
   return (
     <div className="app-content-header-profile">
       <RoundedImage
-        src={currentCharacter.img}
-        alt={currentCharacter.name}
+        src={character ? character.img : currentCharacter.img}
+        alt={character ? character.name : currentCharacter.name}
         width={'30px'}
         height={'30px'}
       />
@@ -19,7 +19,7 @@ const Profile = ({ subtitle }) => {
           {subtitle}
         </span>
         <span className="app-content-header-profile-text-username">
-          {currentCharacter.name}
+          {character ? character.name : currentCharacter.name}
         </span>
       </div>
     </div>
