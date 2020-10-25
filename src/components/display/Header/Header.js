@@ -1,30 +1,31 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
 import WidgetsIcon from '@material-ui/icons/Widgets';
 import TuneIcon from '@material-ui/icons/Tune';
 
 import RoundedImage from '../RoundedImage/RoundedImage';
+import { CharacterContext } from '../../../state/CharacterState/CharacterContext';
 
 import './Header.css';
 
 const Header = (props) => {
+  const [{ currentCharacter }] = useContext(CharacterContext);
+
   return (
     <header className="app-content-header">
       <div className="app-content-header-profile">
         <RoundedImage
-          src={
-            'https://img4.wikia.nocookie.net/__cb20080815045819/starwars/images/thumb/7/73/Chewbaccaheadshot.jpg/500px-Chewbaccaheadshot.jpg'
-          }
-          alt={'avatar'}
+          src={currentCharacter.img}
+          alt={currentCharacter.name}
           width={'30px'}
           height={'30px'}
         />
         <div className="app-content-header-profile-text">
           <span className="app-content-header-profile-text-viewing">
-            Viewing
+            Viewing:
           </span>
           <span className="app-content-header-profile-text-username">
-            Chewbacca
+            {currentCharacter.name}
           </span>
         </div>
       </div>

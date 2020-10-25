@@ -1,5 +1,5 @@
 .app-content-box-header {
-  padding: 1rem;
+  padding: 0.7rem;
   margin: 0;
   display: flex;
   align-items: center;
@@ -10,6 +10,7 @@
 .app-content-box-header-title {
   color: white;
   margin: 0;
+  font-weight: 500;
 }
 
 .app-content-box-header-buttons {

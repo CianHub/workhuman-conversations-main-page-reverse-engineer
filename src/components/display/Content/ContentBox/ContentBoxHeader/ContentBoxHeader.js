@@ -23,6 +23,9 @@ const ContentBoxHeader = ({ title, color }) => {
   );
 };
 
-ContentBoxHeader.propTypes = {};
+ContentBoxHeader.propTypes = {
+  title: PropTypes.string.isRequired,
+  color: PropTypes.string.isRequired,
+};
 
 export default ContentBoxHeader;

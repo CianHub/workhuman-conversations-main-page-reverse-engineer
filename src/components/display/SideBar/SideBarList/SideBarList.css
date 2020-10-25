@@ -4,6 +4,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  width: 100%;
 }
 
 .app-sidebar-list-item {
@@ -13,6 +14,11 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  font-weight: bold;
+}
+
+.app-sidebar-list-item:hover {
+  cursor: pointer;
 }
 
 .app-sidebar-list-item-img {

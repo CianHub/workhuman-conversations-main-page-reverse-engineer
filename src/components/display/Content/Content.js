@@ -1,13 +1,9 @@
-import React, { useContext } from 'react';
-import PropTypes from 'prop-types';
+import React from 'react';
 
 import './Content.css';
-import { CharacterContext } from '../../../state/CharacterState/CharacterContext';
 import ContentColumn from './ContentColumn/ContentColumn';
 
 const Content = (props) => {
-  const characters = useContext(CharacterContext)[0];
-
   return (
     <main className="app-content">
       <ContentColumn title={'Feedback'} color={'#298bbe'} />
