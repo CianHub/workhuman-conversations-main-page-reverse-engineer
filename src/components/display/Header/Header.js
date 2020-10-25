@@ -7,28 +7,14 @@ import RoundedImage from '../RoundedImage/RoundedImage';
 import { CharacterContext } from '../../../state/CharacterState/CharacterContext';
 
 import './Header.css';
+import Profile from '../Profile/Profile';
 
 const Header = (props) => {
   const [{ currentCharacter }] = useContext(CharacterContext);
 
   return (
     <header className="app-content-header">
-      <div className="app-content-header-profile">
-        <RoundedImage
-          src={currentCharacter.img}
-          alt={currentCharacter.name}
-          width={'30px'}
-          height={'30px'}
-        />
-        <div className="app-content-header-profile-text">
-          <span className="app-content-header-profile-text-viewing">
-            Viewing:
-          </span>
-          <span className="app-content-header-profile-text-username">
-            {currentCharacter.name}
-          </span>
-        </div>
-      </div>
+      <Profile title={'Viewing:'} />
       <div className="app-content-header-arrow">
         <ArrowForwardIosIcon />
       </div>
