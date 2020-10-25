@@ -16,10 +16,9 @@
   padding: 0.7rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  height: auto;
   display: flex;
   justify-content: flex-start;
-  width: 100%;
+  width: 20%;
 }
 
 .app-content-header-profile-text-viewing {
@@ -37,7 +36,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 20%;
 }
 
 .app-content-header-links-dashboard {

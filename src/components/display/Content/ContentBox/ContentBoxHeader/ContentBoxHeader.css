@@ -1,0 +1,35 @@
+.app-content-box-header {
+  padding: 1rem;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 4px;
+}
+
+.app-content-box-header-title {
+  color: white;
+  margin: 0;
+}
+
+.app-content-box-header-buttons {
+  display: flex;
+  align-items: center;
+  color: white;
+  justify-content: flex-start;
+}
+
+.app-content-box-header-right-side {
+  display: flex;
+  align-items: center;
+  color: white;
+  justify-content: flex-start;
+}
+
+.app-content-box-header-text {
+  margin-left: 0.5rem;
+}
+
+.app-content-box-header-bar {
+  border-left: 1px solid black;
+}
