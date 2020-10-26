@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/workhuman-conversations-main-page-reverse-engineer/static/css/main.dd1e95cc.chunk.css",
-    "main.js": "/workhuman-conversations-main-page-reverse-engineer/static/js/main.a815690a.chunk.js",
-    "main.js.map": "/workhuman-conversations-main-page-reverse-engineer/static/js/main.a815690a.chunk.js.map",
+    "main.js": "/workhuman-conversations-main-page-reverse-engineer/static/js/main.83f6f295.chunk.js",
+    "main.js.map": "/workhuman-conversations-main-page-reverse-engineer/static/js/main.83f6f295.chunk.js.map",
     "runtime-main.js": "/workhuman-conversations-main-page-reverse-engineer/static/js/runtime-main.3107d66f.js",
     "runtime-main.js.map": "/workhuman-conversations-main-page-reverse-engineer/static/js/runtime-main.3107d66f.js.map",
     "static/js/2.44602fc7.chunk.js": "/workhuman-conversations-main-page-reverse-engineer/static/js/2.44602fc7.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.3107d66f.js",
     "static/js/2.44602fc7.chunk.js",
     "static/css/main.dd1e95cc.chunk.css",
-    "static/js/main.a815690a.chunk.js"
+    "static/js/main.83f6f295.chunk.js"
   ]
 }
