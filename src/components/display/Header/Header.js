@@ -1,17 +1,12 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
 import WidgetsIcon from '@material-ui/icons/Widgets';
 import TuneIcon from '@material-ui/icons/Tune';
 
-import RoundedImage from '../RoundedImage/RoundedImage';
-import { CharacterContext } from '../../../state/CharacterState/CharacterContext';
-
 import './Header.css';
 import Profile from '../Profile/Profile';
 
-const Header = (props) => {
-  const [{ currentCharacter }] = useContext(CharacterContext);
-
+const Header = () => {
   return (
     <header className="app-content-header">
       <Profile subtitle={'Viewing:'} />
@@ -35,7 +30,5 @@ const Header = (props) => {
     </header>
   );
 };
-
-Header.propTypes = {};
 
 export default Header;

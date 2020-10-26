@@ -7,7 +7,6 @@ import './ContentBoxContent.css';
 
 const ContentBoxContent = ({ type, dataItem }) => {
   const { characters } = useContext(CharacterContext)[0];
-  console.log(characters);
 
   const char = characters?.find((char) => char.id === dataItem.authorId);
 
@@ -43,9 +42,13 @@ const ContentBoxContent = ({ type, dataItem }) => {
           <p className="app-content-box-message">My closed priorities</p>
         )}
         <ul className="app-content-box-list">
-          {dataItem.tasks.map((task) => (
-            <li>
-              <input type="checkbox" checked={dataItem.type !== 'active'} />
+          {dataItem.tasks.map((task, idx) => (
+            <li key={task + idx}>
+              <input
+                type="checkbox"
+                checked={dataItem.type !== 'active'}
+                readOnly
+              />
               {task}
             </li>
           ))}
@@ -56,6 +59,9 @@ const ContentBoxContent = ({ type, dataItem }) => {
   }
 };
 
-ContentBoxContent.propTypes = { type: PropTypes.string.isRequired };
+ContentBoxContent.propTypes = {
+  type: PropTypes.string.isRequired,
+  dataItem: PropTypes.object.isRequired,
+};
 
 export default ContentBoxContent;

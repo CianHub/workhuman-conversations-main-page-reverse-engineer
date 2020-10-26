@@ -26,6 +26,6 @@ const Profile = ({ subtitle, character }) => {
   );
 };
 
-Profile.propTypes = {};
+Profile.propTypes = { subtitle: PropTypes.string, character: PropTypes.object };
 
 export default Profile;

@@ -1,11 +1,10 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
 import './ContentContainer.css';
 import Header from '../../display/Header/Header';
 import Content from '../../display/Content/Content';
 
-const ContentContainer = (props) => {
+const ContentContainer = () => {
   return (
     <div className="app-content-container">
       <Header />
@@ -13,7 +12,5 @@ const ContentContainer = (props) => {
     </div>
   );
 };
-
-ContentContainer.propTypes = {};
 
 export default ContentContainer;

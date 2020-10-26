@@ -20,6 +20,10 @@
   justify-content: flex-start;
 }
 
+.app-content-box-header-buttons:hover {
+  cursor: pointer;
+}
+
 .app-content-box-header-right-side {
   display: flex;
   align-items: center;
