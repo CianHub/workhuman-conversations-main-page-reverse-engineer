@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/workhuman-conversations-main-page-reverse-engineer/static/css/main.dd1e95cc.chunk.css",
+    "main.js": "/workhuman-conversations-main-page-reverse-engineer/static/js/main.e3754807.chunk.js",
+    "main.js.map": "/workhuman-conversations-main-page-reverse-engineer/static/js/main.e3754807.chunk.js.map",
+    "runtime-main.js": "/workhuman-conversations-main-page-reverse-engineer/static/js/runtime-main.3107d66f.js",
+    "runtime-main.js.map": "/workhuman-conversations-main-page-reverse-engineer/static/js/runtime-main.3107d66f.js.map",
+    "static/js/2.65145142.chunk.js": "/workhuman-conversations-main-page-reverse-engineer/static/js/2.65145142.chunk.js",
+    "static/js/2.65145142.chunk.js.map": "/workhuman-conversations-main-page-reverse-engineer/static/js/2.65145142.chunk.js.map",
+    "static/js/3.e14f5827.chunk.js": "/workhuman-conversations-main-page-reverse-engineer/static/js/3.e14f5827.chunk.js",
+    "static/js/3.e14f5827.chunk.js.map": "/workhuman-conversations-main-page-reverse-engineer/static/js/3.e14f5827.chunk.js.map",
+    "index.html": "/workhuman-conversations-main-page-reverse-engineer/index.html",
+    "static/css/main.dd1e95cc.chunk.css.map": "/workhuman-conversations-main-page-reverse-engineer/static/css/main.dd1e95cc.chunk.css.map",
+    "static/js/2.65145142.chunk.js.LICENSE.txt": "/workhuman-conversations-main-page-reverse-engineer/static/js/2.65145142.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3107d66f.js",
+    "static/js/2.65145142.chunk.js",
+    "static/css/main.dd1e95cc.chunk.css",
+    "static/js/main.e3754807.chunk.js"
+  ]
+}
