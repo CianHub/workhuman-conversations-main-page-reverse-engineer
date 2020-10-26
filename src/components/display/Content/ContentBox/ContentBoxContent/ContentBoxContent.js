@@ -12,8 +12,8 @@ const ContentBoxContent = ({ dataItem, children }) => {
 };
 
 ContentBoxContent.propTypes = {
-  type: PropTypes.string.isRequired,
   dataItem: PropTypes.object.isRequired,
+  children: PropTypes.func,
 };
 
 export default ContentBoxContent;

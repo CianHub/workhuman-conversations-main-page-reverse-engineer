@@ -42,8 +42,9 @@ const PrioritiesContentBox = ({ dataItem }) => (
             type="checkbox"
             checked={dataItem.type !== 'active'}
             readOnly
+            id={task + idx}
           />
-          {task}
+          <label htmlFor={task + idx}>{task}</label>
         </li>
       ))}
     </ul>
