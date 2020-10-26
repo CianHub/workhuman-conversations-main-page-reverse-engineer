@@ -3,32 +3,26 @@ export function useTimelineItem(type, characters, currentCharacter) {
   const currentChar = JSON.parse(JSON.stringify(currentCharacter));
   const timelineItemToEdit = currentChar.timeline[type];
 
-  if (type === 'priorities') {
+  if (type === 'priorities')
     timelineItemToEdit[0].tasks.push('Newly added task');
-  }
-  if (type === 'feedback') {
+
+  if (type === 'feedback')
     timelineItemToEdit.push({
       authorId: id === 1 ? 0 : 1,
       message: 'Nice job adding feedback!',
       age: 'Just Now',
     });
-  }
-  if (type === 'checkIn') {
+
+  if (type === 'checkIn')
     timelineItemToEdit.push({
       authorId: id === 1 ? 0 : 1,
       title: 'New Check In',
       message: 'Nice job adding check-in!',
       age: 'Just Now',
     });
-  }
 
-  const newCharacters = JSON.parse(JSON.stringify(characters)).map(
-    (character) => {
-      if (character.id === id) {
-        return currentChar;
-      }
-      return character;
-    }
+  const newCharacters = characters.map((character) =>
+    character.id === id ? currentChar : character
   );
 
   return [currentChar, newCharacters];
